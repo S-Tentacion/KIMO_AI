@@ -39,7 +39,7 @@ const Catergories:React.FC<CatergoriesPageProps>=({categories})=> {
           flexDirection={"column"}
         >
           {allCatergory.map((item) => {
-            return <AllCatergory item={item} categories={categories} />;
+            return <AllCatergory item={item} categories={categories} key={item}/>;
           })}
         </Box>
       </Box>

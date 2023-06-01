@@ -26,7 +26,7 @@ function SideBar() {
           <DrawerBody>
             <Box mt={20}>
               {sideBarItems.map((item) => {
-                return <Text mb={"36px"}>{item}</Text>;
+                return <Text mb={"36px"} key={item}>{item}</Text>;
               })}
               <Button variant={"primary"}>Book a trip</Button>
             </Box>

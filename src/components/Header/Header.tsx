@@ -49,7 +49,7 @@ function Header() {
             ml="75px"
           >
             {subHeading.map((item) => {
-              return <chakra.p>{item}</chakra.p>;
+              return <chakra.p key={item}>{item}</chakra.p>;
             })}
           </Box>
         </Box>

@@ -39,7 +39,7 @@ const CatergoriesPopver: React.FC<CatergoriesPopverProps> = ({
           <List spacing={3}>
             {selectedCatergory?.activities?.map(({ title }) => {
               return (
-                <ListItem>
+                <ListItem key={title}>
                   <ListIcon as={InfoIcon} color="green.500" />
                   {title}
                 </ListItem>
