@@ -5,7 +5,7 @@ This is a Movies App built using Next.js(https://nextjs.org/), and ChakraUI(http
 
 ## Demo
 
-A [live deployment](https://moviewire.vercel.app/) of this app is available to try it out.
+A [live deployment](https://kimo-ai.vercel.app/) of this app is available to try it out.
 
 
 ## Installation 
