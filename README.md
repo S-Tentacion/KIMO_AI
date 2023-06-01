@@ -1,7 +1,7 @@
 
 # MOVIE_WIRE
 
-This is a Movies App built using Next.js(https://nextjs.org/), and ChakraUI(https://chakra-ui.com/). 
+This is a Movies App built using [Next.js](https://nextjs.org/), and [ChakraUI](https://chakra-ui.com/). 
 
 ## Demo
 
